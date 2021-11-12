@@ -1,0 +1,173 @@
+body {
+  background-color: #ffb341;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.App-header {
+  background-color: #6e3500;
+  height: 10vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header > h1 {
+  width: 85%;
+  text-align: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listCard {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+.cardRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 35%;
+  height: 160px;
+}
+
+.cardRight > h2 {
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+button.action {
+  background-color: darkcyan;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+button.delete {
+  background-color: darkred;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.validationErrors {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  
+}
+
+.formLeft, .formRight, .inputBundle {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputBundle, .checkBundle {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+input, select, textarea {
+  margin-top: 5px;
+  font-size: 16px
+}
+
+.checkBundle > label {
+  margin-left: 8px;
+}
+
+.error {
+  font-size: 16px;
+  color: red;
+  margin: 5px 0 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  width: 60%;
+  height: 45vh;
+  margin: 45px auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.detailsLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 45%;
+}
+
+.detailsLeft > h2 {
+  font-size: 34px;
+  margin: 0;
+  text-align: center;
+}
+
+.detailsRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 45%;
+}
+
+.detailsRight > h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.factoids {
+  text-align:left;
+  font-size: 18px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
